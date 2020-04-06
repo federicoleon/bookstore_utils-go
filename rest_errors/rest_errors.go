@@ -1,10 +1,10 @@
 package rest_errors
 
 import (
-	"net/http"
-	"fmt"
 	"encoding/json"
 	"errors"
+	"fmt"
+	"net/http"
 )
 
 type RestErr interface {
